@@ -1,9 +1,7 @@
-# Replace this title!
+# FREEP
 
-This file is supposed to contain your project's _global_ documentation.
+Initialize commit came from wilder-louis account, that's Wild Code School git account.
 
-For now, this repo contains:
+This projet is the third one made by Nathan Marcy, Richard Gaillez, Loukiana Vivenot, Sabine Robart, Maryline Alves and myself.
 
-- A `frontend` folder, initialized with the command `npx create-react-app frontend`
-- A `backend` folder. In it, there is just a basic `package.json` file
-- A `misc` folder, where you'll add everything non code-related
+This is a real projet with a real customer, Clarisse Noulet.
