@@ -1,0 +1,100 @@
+@import "../index.scss";
+
+@font-face {
+  font-family: "AvantGarde";
+  src: url("ITCAvantGardeStd-Bk.otf");
+}
+
+@font-face {
+  font-family: "AvantGarde bold";
+  src: url("ITCAvantGardeStd-Bold.otf");
+}
+
+.name {
+  font-size: calc(1rem + 1vw);
+  color: goldenrod;
+  font-family: "AvantGarde bold";
+}
+
+.titleMessage {
+  font-size: 3rem;
+  color: goldenrod;
+  font-family: "AvantGarde bold", cursive;
+}
+
+.link,
+.link:hover {
+  color: $bl;
+  text-decoration: none;
+}
+
+.messaging-card {
+  border: 0;
+  box-shadow: $box-shadow;
+  border-radius: $radius-sm;
+  &:hover {
+    transform: translateY(2px);
+  }
+  .card-body {
+    display: flex;
+    padding: 0 3vh;
+    align-items: center;
+  }
+}
+
+.message-card {
+  border-radius: $radius-sm;
+  width: 75%;
+  border: 0;
+}
+
+.message-card,
+.messaging-card {
+  margin: 2vh calc(1rem + 5vw);
+}
+.myself {
+  margin-left: 15vw;
+}
+
+.message-form {
+  width: 95vh;
+  background: white;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.05);
+  padding: 3vh;
+
+  textarea {
+    border: none;
+    border-radius: $radius-sm;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    &:focus {
+      box-shadow: 0 0 #fff !important;
+    }
+  }
+  label {
+    font-family: "AvantGarde bold", sans-serif;
+    color: goldenrod;
+    width: 100%;
+  }
+}
+
+.message-form button {
+  background: #ad3a70cc;
+  border: none;
+  &:hover {
+    background: $gradient;
+    box-shadow: $box-shadow;
+  }
+}
+
+.messages-container button {
+  background: #ad3a70cc;
+  border: none;
+  &:hover {
+    background: $gradient;
+    box-shadow: $box-shadow;
+  }
+}
+
+.message-text {
+  width: 100%;
+}
